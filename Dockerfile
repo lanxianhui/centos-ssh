@@ -32,7 +32,7 @@ RUN rpm --rebuilddb \
 		python-setuptools-0.6.10-3.el6 \
 		ftp://mirror.switch.ch/pool/4/mirror/scientificlinux/6.8/x86_64/os/Packages/yum-plugin-versionlock-1.1.30-37.el6.noarch.rpm \
 		libxml2-2.7.6-21.el6_8.1 \
-		ftp://fr2.rpmfind.net/linux/centos/6.8/updates/x86_64/Packages/openssl-devel-1.0.1e-48.el6_8.3.x86_64.rpm \
+		ftp://fr2.rpmfind.net/linux/centos/6.8/os/x86_64/Packages/openssl-devel-1.0.1e-48.el6.x86_64.rpm \
 	&& yum versionlock add \
 		vim-minimal \
 		xz \
