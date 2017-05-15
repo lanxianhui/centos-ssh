@@ -25,14 +25,14 @@ RUN rpm --rebuilddb \
 		https://centos6.iuscommunity.org/ius-release.rpm \
 		vim-minimal-7.4.629-5.el6_8.1 \
 		xz-4.999.9-0.5.beta.20091007git.el6.x86_64 \
-		sudo-1.8.6p3-25.el6_8 \
-		openssh-5.3p1-118.1.el6_8 \
-		openssh-server-5.3p1-118.1.el6_8 \
-		openssh-clients-5.3p1-118.1.el6_8 \
+		http://vault.centos.org/centos/6.8/updates/x86_64/Packages/sudo-1.8.6p3-25.el6_8.x86_64.rpm \
+		http://vault.centos.org/centos/6.8/updates/x86_64/Packages/openssh-5.3p1-118.1.el6_8.x86_64.rpm \
+		ftp://ftp.pbone.net/mirror/ftp.scientificlinux.org/linux/scientific/6.6/x86_64/updates/security/openssh-server-5.3p1-118.1.el6_8.x86_64.rpm \
+                ftp://mirror.switch.ch/pool/4/mirror/scientificlinux/6.7/x86_64/updates/security/openssh-clients-5.3p1-118.1.el6_8.x86_64.rpm \
 		python-setuptools-0.6.10-3.el6 \
-		yum-plugin-versionlock-1.1.30-37.el6 \
+		ftp://mirror.switch.ch/pool/4/mirror/scientificlinux/6.8/x86_64/os/Packages/yum-plugin-versionlock-1.1.30-37.el6.noarch.rpm \
 		libxml2-2.7.6-21.el6_8.1 \
-		openssl-1.0.1e-48.el6_8.3 \
+		ftp://fr2.rpmfind.net/linux/centos/6.8/updates/x86_64/Packages/openssl-devel-1.0.1e-48.el6_8.3.x86_64.rpm \
 	&& yum versionlock add \
 		vim-minimal \
 		xz \
